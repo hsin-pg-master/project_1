@@ -83,6 +83,10 @@ a:hover {
   justify-content: space-between;
 }
 
+.justify-content-around {
+  justify-content: space-around;
+}
+
 header {
   background-color: darkgreen;
   padding: 10px;
@@ -126,4 +130,42 @@ header {
   max-width: 100%;
   scroll-snap-align: start;
   object-fit: cover;
+}
+
+.card-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card {
+  background-color: aqua;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.card > img {
+  border-radius: 1rem 1rem 0rem 0rem;
+  max-width: 350px;
+  /* margin-bottom: 10px; */
+}
+
+.card-body > h5 {
+  font-size: 2rem;
+  padding: 10px;
+}
+
+.card-body > p {
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.card-body > button {
+  font-size: 1.5rem;
+  padding: 10px;
+  margin-bottom: 1rem;
+}
+
+footer{
+  background-color: blue;
+  height: 200px;
 }
