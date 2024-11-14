@@ -6,18 +6,83 @@
   <link rel="stylesheet" href="all.css">
   <title>首頁</title>
 </head>
+
 <body>
   <!-- h1 tag is created by feature/html_1 -->
-   <h1>develop test</h1>
-  <!-- header is created by feature/html_1  -->
+  <h1 id="to-top">我的首頁</h1>
 
+  <!-- header is created by feature/html_1  -->
+  <header class="d-flex justify-content-between">
+    <div class="container">
+      <a href="#"><img src="./imgs/Logo.png" alt="logo"></a>
+    </div>
+    <div class="navbar-nav">
+      <a href="">商品</a>
+      <a href="">購物車</a>
+      <a href="">登入</a>
+    </div>
+  </header>
   <!-- carousel is created by feature/html_1  -->
+  <div class="carousel">
+    <div class="carousel-indicators">
+      <a href="#pic_1"></a>
+      <a href="#pic_2"></a>
+      <a href="#pic_3"></a>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <img src="./imgs/1.jpg" alt="pic_1" id="pic_1">
+      </div>
+      <div class="carousel-item">
+        <img src="./imgs/2.jpg" alt="pic_2" id="pic_2">
+      </div>
+      <div class="carousel-item">
+        <img src="./imgs/3.jpg" alt="pic_3" id="pic_3">
+      </div>
+    </div>
+  </div>
 
   <!-- cards is created by feature/html_2  -->
+  <div class="card-container d-flex justify-content-around">
+    <div class="card">
+      <img src="imgs/1.jpg" alt="" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-price">Card price</p>
+        <button class="btn">Add to cart</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="imgs/1.jpg" alt="" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-price">Card price</p>
+        <button class="btn">Add to cart</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="imgs/1.jpg" alt="" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-price">Card price</p>
+        <button class="btn">Add to cart</button>
+      </div>
+    </div>
+  </div>
 
+  <!-- TODO create footer -->
   <!-- footer is created by feature/html_2  -->
+  <footer class="d-flex justify-content-around">
+    <div class="left">
+      <p>關於我</p>
+    </div>
+    <div class="right">2024 Hsin</div>
+  </footer>
 
   <!-- to top button is created by feature/html_2  -->
-  
+   <a href="#to-top" class="to-top">^</a>
+
 </body>
+
 </html>
